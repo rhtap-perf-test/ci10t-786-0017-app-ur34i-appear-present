@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-eplp
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0017-tenant/ci10t-786-0017-app/devfile-sample-eplp@sha256:4bc2aecff4af1568627201c48bdda13fc4df94dd93d24f6a871e4af6cb4378f1
+        name: my-nodejs
+        resources: {}
+status: {}

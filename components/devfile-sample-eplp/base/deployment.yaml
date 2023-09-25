@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-eplp
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0017-tenant/ci10t-786-0017-app/devfile-sample-eplp@sha256:4bc2aecff4af1568627201c48bdda13fc4df94dd93d24f6a871e4af6cb4378f1
         name: my-nodejs
         ports:
         - containerPort: 3001
